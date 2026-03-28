@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "LoiloNote Dark Theme",
+  "version": "1.0",
+  "description": "Apply dark theme CSS to LoiloNote.",
+  "content_scripts": [
+    {
+      "matches": ["https://loilonote.app/*"],
+      "css": ["LoiloNote Dark Theme.css"]
+    }
+  ]
+}

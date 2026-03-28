@@ -1,0 +1,259 @@
+/* チュートリアル非表示 */
+.tutorialDialog{
+  display: none !important;
+}
+
+/* 全体背景を黒 → 濃いグレーへ */
+body{
+  background-color:#1a1a1a !important;
+}
+
+/* ナビゲーション */
+div.navBody,
+div.navHeaderGrid,
+div.navHeader,
+div.nav {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+  color: white !important;
+}
+
+/* リストビュー */
+div.listViewCellInner,
+div.listViewCell,
+div.listViewSection {
+  background-color: #1f1f1f !important;
+  color: white !important;
+  border-color: #2a2a2a !important;
+}
+
+/* ポップオーバー */
+a.uiPopoverItem,
+div.uiPopoverItem,
+div.uiPopover,
+div.uiPopoverTriInner {
+  background-color: #1f1f1f !important;
+  border-color: #1f1f1f !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+div.uiPopoverTriInner{
+  display: none !important;
+}
+
+/* 言語セレクタ */
+select.uiLangSelector {
+  background-color: #2a2a2a !important;
+  border-radius: 14px !important;
+  color: white !important;
+}
+
+/* 戻るボタン・メニュー */
+div.internalButton.desktopBackButton,
+div.menu {
+  background-color: #1a1a1a !important;
+  border-radius: 8px !important;
+  margin-left: 10px !important;
+}
+
+/* 提出ボード */
+span.submissionBoardTitleInner,
+div.submissionBoardTitle,
+div.submissionBoardTime {
+  background-color: #1f1f1f !important;
+  color: white !important;
+  border-color: #1f1f1f !important;
+}
+
+/* タイムライン */
+div.timelineBalloonContent {
+  background-color: #1f1f1f !important;
+}
+div.timelineBalloonArrow,
+img.timelineEntryDescIcon {
+  display: none !important;
+}
+div.timelineEntryMessage {
+  color: white !important;
+}
+
+/* 丸ボタン */
+div.listViewRoundButtonInner {
+  background-color: #1f1f1f !important;
+  border-radius: 30px !important;
+}
+
+/* ソートメニュー */
+div.uiSortButtonPopoverAnchor {
+  background-color: #1f1f1f !important;
+  color: white !important;
+}
+div.uiSortButtonDropdownArrow {
+  background-color: white !important;
+}
+div.uiPopoverItem.uiSortMenuItem {
+  background-color: #2a2a2a !important;
+  border-radius: 20px !important;
+}
+div.uiSortMenuItemTitle {
+  color: white !important;
+}
+
+/* 提出リスト */
+div.submissionListMiddleHeader,
+div.submissionListCell {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+}
+div.ellipsisText.submissionListCellUserName {
+  color: white !important;
+  background-color: #222 !important;
+}
+
+/* 編集画面の名前など */
+div.editorTimestampAuthorNamePageNumber {
+  background-color: #1a1a1a !important;
+  color: white !important;
+  padding: 10px !important;
+}
+
+/* 提出履歴 */
+div.submissionHistoryDueItem,
+div.submissionHistoryPopover {
+  background-color: #1a1a1a !important;
+  border-color: #2a2a2a !important;
+}
+div.submissionHistoryPopoverSubmitDate {
+  color: white !important;
+  font-size: 14px !important;
+}
+
+/* 名前非表示 */
+div.name{
+  display: none !important;
+}
+
+/* ▼ 教科名（音楽・国語・算数など）をグレーに統一 */
+div.subject,
+span.subject,
+div.subjectLabel,
+span.subjectLabel {
+  background-color: #2a2a2a !important;
+  color: white !important;
+  border-radius: 6px !important;
+  padding: 4px 8px !important;
+}
+/* ============================
+   ボタンを明るいグレーに統一
+   ============================ */
+
+/* 一般的なボタン */
+button,
+input[type="button"],
+input[type="submit"],
+div.button,
+div.uiButton,
+div.internalButton,
+div.listViewRoundButtonInner {
+  background-color: #3a3a3a !important;
+  color: white !important;
+  border: 1px solid #4a4a4a !important;
+  border-radius: 8px !important;
+}
+
+/* ホバー時は少し明るく */
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+div.button:hover,
+div.uiButton:hover,
+div.internalButton:hover,
+div.listViewRoundButtonInner:hover {
+  background-color: #4a4a4a !important;
+}
+
+/* ソートボタンなどの特殊ボタン */
+div.uiSortButtonPopoverAnchor {
+  background-color: #3a3a3a !important;
+  color: white !important;
+}
+
+/* ポップアップ内のボタン */
+div.uiPopoverItem,
+a.uiPopoverItem {
+  background-color: #3a3a3a !important;
+  border-color: #3a3a3a !important;
+}
+
+/* 提出ボードの操作ボタン */
+div.submissionBoardTitleInner,
+div.submissionBoardTime {
+  background-color: #3a3a3a !important;
+  color: white !important;
+}
+
+/* タイムラインの丸ボタン */
+div.listViewRoundButtonInner {
+  background-color: #3a3a3a !important;
+}
+
+/* 言語セレクタも統一 */
+select.uiLangSelector {
+  background-color: #3a3a3a !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+/* ============================
+   教科ラベルのデザイン統一
+   ============================ */
+
+/* 教科ラベル全般 */
+.subjectLabel,
+.subject,
+span.subject,
+div.subject {
+  background-color: #3d3d3d !important;   /* 明るめグレー */
+  color: #ffffff !important;              /* 白文字で視認性UP */
+  padding: 6px 12px !important;           /* 余白で見やすく */
+  border-radius: 10px !important;         /* 角丸で柔らかく */
+  font-weight: 600 !important;            /* 少し太字で強調 */
+  display: inline-block !important;
+  border: 1px solid #4a4a4a !important;   /* 薄い枠で締まりを出す */
+}
+
+/* 教科ラベルのホバー効果（押せる感を出す） */
+.subjectLabel:hover,
+.subject:hover {
+  background-color: #4a4a4a !important;   /* 少し明るく */
+  transform: translateY(-1px);
+  transition: 0.15s ease-in-out;
+}
+
+/* 教科名がアイコン付きの場合の調整 */
+.subjectLabel img,
+.subject img {
+  filter: brightness(0.8) !important;     /* アイコンも暗めに統一 */
+  margin-right: 6px !important;
+}
+/* ============================
+   丸いボタンは元の色を残して暗めにする
+   ============================ */
+
+div.listViewRoundButtonInner,
+div.roundButton,
+button.circle,
+button.round,
+div.circleButton {
+  filter: brightness(0.55) saturate(0.8) !important; 
+  border-radius: 50% !important;
+}
+
+/* ホバー時は少し明るく戻す */
+div.listViewRoundButtonInner:hover,
+div.roundButton:hover,
+button.circle:hover,
+button.round:hover,
+div.circleButton:hover {
+  filter: brightness(0.75) saturate(0.9) !important;
+  transition: 0.15s ease-in-out;
+}
